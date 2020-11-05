@@ -1,0 +1,23 @@
+uuid: b722bb28-334e-4902-9de8-0eee4d7d7187
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_habitantes_decimal
+    - taxonomy.vocabulary.paises
+id: taxonomy_term.paises.field_habitantes_decimal
+field_name: field_habitantes_decimal
+entity_type: taxonomy_term
+bundle: paises
+label: habitantes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

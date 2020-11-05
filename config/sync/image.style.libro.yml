@@ -1,0 +1,15 @@
+uuid: 7ca6ff51-2117-4097-8cb9-9255f7885db5
+langcode: es
+status: true
+dependencies: {  }
+name: libro
+label: Libro
+effects:
+  e07f3edd-37f1-4454-8320-c9389b1e1a56:
+    uuid: e07f3edd-37f1-4454-8320-c9389b1e1a56
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: null
+      upscale: false

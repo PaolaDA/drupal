@@ -1,0 +1,15 @@
+uuid: 69a28786-d1f3-47aa-9c9f-0367a1f42b61
+langcode: es
+status: true
+dependencies: {  }
+name: cabeceraimglibro
+label: CabeceraImgLibro
+effects:
+  859aff3b-a72a-4925-b432-02651b3020c4:
+    uuid: 859aff3b-a72a-4925-b432-02651b3020c4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 550
+      anchor: center-center

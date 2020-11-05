@@ -1,0 +1,20 @@
+uuid: 3678b10a-29e0-4be6-874e-75c114f93f6e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+  module:
+    - path
+id: taxonomy_term.habitantes.path
+field_name: path
+entity_type: taxonomy_term
+bundle: habitantes
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,8 @@
+uuid: f7874c6b-5050-46ab-b36d-f96c1b8abd7c
+langcode: es
+status: true
+dependencies: {  }
+name: Paises
+vid: paises
+description: 'Taxonomia para clasificar las vistas de las tiendas por paises'
+weight: 0

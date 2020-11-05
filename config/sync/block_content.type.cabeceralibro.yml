@@ -1,0 +1,8 @@
+uuid: 606ede0a-1d59-4d0d-8a9d-cb64926c48c0
+langcode: es
+status: true
+dependencies: {  }
+id: cabeceralibro
+label: CabeceraLibro
+revision: 0
+description: ''

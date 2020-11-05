@@ -1,0 +1,18 @@
+uuid: 37e68f0b-d69d-409f-b3c7-341d90ca31ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.post
+id: node.post.changed
+field_name: changed
+entity_type: node
+bundle: post
+label: Modificado
+description: 'La fecha en que el nodo fue editado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

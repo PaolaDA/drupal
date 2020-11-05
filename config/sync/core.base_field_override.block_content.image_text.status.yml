@@ -1,0 +1,22 @@
+uuid: 443b1234-392d-428e-9567-d46a06522917
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.image_text
+id: block_content.image_text.status
+field_name: status
+entity_type: block_content
+bundle: image_text
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

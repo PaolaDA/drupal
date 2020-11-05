@@ -1,0 +1,14 @@
+uuid: e10b89d9-17fd-4024-b002-c1384fadae62
+langcode: es
+status: true
+dependencies: {  }
+id: node.libro.display.full.titulo
+label: titulo
+field_name: titulo
+entity_type: node
+bundle: libro
+context: display
+mode: full
+plugin: entity_label
+weight: null
+settings: {  }

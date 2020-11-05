@@ -1,0 +1,18 @@
+uuid: dd52c1aa-ac20-4a1a-8393-79941193a8ec
+langcode: es
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_habitantes_decimal
+field_name: field_habitantes_decimal
+entity_type: taxonomy_term
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: a2272013-f259-4d19-bdba-02cb8eb67a91
+langcode: es
+status: true
+dependencies: {  }
+id: node.libro.display.default.titulo
+label: Titulo
+field_name: titulo
+entity_type: node
+bundle: libro
+context: display
+mode: default
+plugin: entity_label
+weight: null
+settings:
+  wrapper: h1
+  class: ''

@@ -1,0 +1,34 @@
+uuid: 988f40f9-335f-433f-8aa0-edbef41e2910
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.paises.field_habitantes_decimal
+    - taxonomy.vocabulary.paises
+  module:
+    - text
+id: taxonomy_term.paises.default
+targetEntityType: taxonomy_term
+bundle: paises
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_habitantes_decimal:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+hidden:
+  langcode: true

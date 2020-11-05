@@ -1,0 +1,38 @@
+uuid: 7abbfa12-7254-4833-81ca-e1dcefe70f51
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibro
+    - field.storage.block_content.field_imagen_libro_bloq
+  module:
+    - image
+id: block_content.cabeceralibro.field_imagen_libro_bloq
+field_name: field_imagen_libro_bloq
+entity_type: block_content
+bundle: cabeceralibro
+label: imagen_libro_bloq
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,20 @@
+uuid: b18b1894-aba3-4443-b9ba-aa37d508d7c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - publication_date
+id: node.page.published_at
+field_name: published_at
+entity_type: node
+bundle: page
+label: 'Publicado en'
+description: 'Keep the publication timestamp for each node.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: published_at

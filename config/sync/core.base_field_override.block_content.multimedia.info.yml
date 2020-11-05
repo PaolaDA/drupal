@@ -1,0 +1,18 @@
+uuid: b9cb17a9-2058-4402-b884-56e6e6e1e6f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.multimedia
+id: block_content.multimedia.info
+field_name: info
+entity_type: block_content
+bundle: multimedia
+label: 'Block description'
+description: 'Una breve descripción de su bloque.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

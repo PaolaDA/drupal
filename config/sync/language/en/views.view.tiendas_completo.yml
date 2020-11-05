@@ -1,0 +1,28 @@
+display:
+  default:
+    display_options:
+      header:
+        area_1:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"node/add/tienda\" role=\"button\">Agregar EN</a></p>\r\n"
+            format: full_html
+        area:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"/en/tiendascsv\" role=\"button\">Descargar CSV EN</a></p>\r\n"
+            format: full_html
+      filters:
+        langcode:
+          expose:
+            description: ''
+      title: 'Listado Tiendas EN'
+  page_1:
+    display_options:
+      header:
+        area_1:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"node/add/tienda\" role=\"button\">Agregar</a></p>\r\n"
+            format: full_html
+        area:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"/tiendascsv\" role=\"button\">Descargar CSV</a></p>\r\n"
+            format: full_html

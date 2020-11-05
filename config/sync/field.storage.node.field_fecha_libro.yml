@@ -1,0 +1,20 @@
+uuid: 7ae5d024-7df0-4abb-b71a-aae7edfad6b3
+langcode: es
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_fecha_libro
+field_name: field_fecha_libro
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

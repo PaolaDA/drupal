@@ -1,0 +1,8 @@
+uuid: 66670e8d-da20-4f74-ad23-0bbc807d7ba7
+langcode: es
+status: true
+dependencies: {  }
+name: 'Genero libros'
+vid: genero_libros
+description: ''
+weight: 0

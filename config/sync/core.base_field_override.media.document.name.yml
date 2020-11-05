@@ -1,0 +1,20 @@
+uuid: e6df05f8-607d-4f1d-ba04-b8e0a4becdfe
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

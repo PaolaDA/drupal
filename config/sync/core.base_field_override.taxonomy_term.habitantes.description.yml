@@ -1,0 +1,20 @@
+uuid: 90c7bfe3-428a-40c2-92ff-552f765dce76
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+  module:
+    - text
+id: taxonomy_term.habitantes.description
+field_name: description
+entity_type: taxonomy_term
+bundle: habitantes
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: e9c96f4a-2ff2-4449-a7f5-e9fb0f425742
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibro
+id: block_content.cabeceralibro.status
+field_name: status
+entity_type: block_content
+bundle: cabeceralibro
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

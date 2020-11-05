@@ -1,0 +1,18 @@
+uuid: c98c0cff-84b5-4822-9eaf-9d947c14678e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+id: taxonomy_term.habitantes.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: habitantes
+label: Modificado
+description: 'La fecha en que el término fue creado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

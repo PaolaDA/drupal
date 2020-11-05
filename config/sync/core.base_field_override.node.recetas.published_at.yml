@@ -1,0 +1,20 @@
+uuid: 9af5455e-a163-47cb-a504-9c509175be24
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recetas
+  module:
+    - publication_date
+id: node.recetas.published_at
+field_name: published_at
+entity_type: node
+bundle: recetas
+label: 'Publicado en'
+description: 'Keep the publication timestamp for each node.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: published_at

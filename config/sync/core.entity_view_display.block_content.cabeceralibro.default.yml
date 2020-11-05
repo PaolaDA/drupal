@@ -1,0 +1,32 @@
+uuid: cc6c7062-ab34-4fb7-949c-7dddc854d62c
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibro
+    - field.field.block_content.cabeceralibro.body
+    - field.field.block_content.cabeceralibro.field_imagen_libro_bloq
+  module:
+    - image
+id: block_content.cabeceralibro.default
+targetEntityType: block_content
+bundle: cabeceralibro
+mode: default
+content:
+  field_imagen_libro_bloq:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  titulo_default:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true

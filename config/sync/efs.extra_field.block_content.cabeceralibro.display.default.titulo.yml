@@ -1,0 +1,14 @@
+uuid: 4c2b1ada-cc3c-4fe4-ad9b-8bafb5552d97
+langcode: es
+status: true
+dependencies: {  }
+id: block_content.cabeceralibro.display.default.titulo
+label: Titulo
+field_name: titulo
+entity_type: block_content
+bundle: cabeceralibro
+context: display
+mode: default
+plugin: entity_label
+weight: null
+settings: {  }

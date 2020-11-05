@@ -1,0 +1,18 @@
+uuid: 46512aab-d965-439a-8d8d-502b6f715650
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabeceralibro
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.cabeceralibro
+target_entity_type_id: block_content
+target_bundle: cabeceralibro
+default_langcode: site_default
+language_alterable: false

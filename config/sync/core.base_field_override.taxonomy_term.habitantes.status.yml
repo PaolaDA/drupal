@@ -1,0 +1,22 @@
+uuid: 59bde47a-7a3e-4042-bd5a-ba371a078023
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+id: taxonomy_term.habitantes.status
+field_name: status
+entity_type: taxonomy_term
+bundle: habitantes
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 317e9011-b0fc-42c0-b932-553ed3a8934d
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.habitantes
+target_entity_type_id: taxonomy_term
+target_bundle: habitantes
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 1eee6c81-5f03-425f-8bc0-42233fb7ce5e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.libro
+id: node.libro.changed
+field_name: changed
+entity_type: node
+bundle: libro
+label: Modificado
+description: 'La fecha en que el nodo fue editado por última vez.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

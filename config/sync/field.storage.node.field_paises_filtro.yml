@@ -1,0 +1,20 @@
+uuid: bf0ccb89-f630-4747-8dd7-c2edf0cb5a3e
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_paises_filtro
+field_name: field_paises_filtro
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

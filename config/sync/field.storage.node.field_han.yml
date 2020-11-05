@@ -1,0 +1,20 @@
+uuid: 7280d0cb-71c5-4a65-8faf-6361ae077153
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_han
+field_name: field_han
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

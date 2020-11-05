@@ -1,0 +1,23 @@
+uuid: f543b342-af84-4422-886f-ad13a66d85a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tienda
+  module:
+    - text
+id: node.tienda.body
+field_name: body
+entity_type: node
+bundle: tienda
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

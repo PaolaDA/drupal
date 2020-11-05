@@ -1,0 +1,29 @@
+uuid: cc5c39bd-c4d4-4c77-8225-57faf9388deb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paises_filtro
+    - node.type.tienda
+    - taxonomy.vocabulary.paises
+id: node.tienda.field_paises_filtro
+field_name: field_paises_filtro
+entity_type: node
+bundle: tienda
+label: 'paises filtro'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      paises: paises
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
