@@ -12,7 +12,9 @@ dependencies:
   module:
     - comment
     - image
+    - module2
     - path
+    - publication_date
     - text
 _core:
   default_config_hash: 6VUXB1jTUjK5zjkfMa2Kd2WW4sFUlgfBlfJSx01qLpU
@@ -81,6 +83,12 @@ content:
     weight: 15
     region: content
     third_party_settings: {  }
+  published_at:
+    type: publication_date_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
@@ -96,12 +104,10 @@ content:
     region: content
     third_party_settings: {  }
   title:
-    type: string_textfield
+    type: widget_example
     weight: 0
     region: content
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
